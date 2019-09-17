@@ -1,0 +1,85 @@
+{
+  "settings": {
+    "name": "Site-09-17_2151",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "directm",
+      "title": "DirectM",
+      "styling": {
+        "primaryColor": "#5aac98",
+        "secondaryColor": "#A25DAE",
+        "successColor": "#1E7C3A",
+        "infoColor": "#74a3c7",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
+        "titleFont": "Oxygen",
+        "subtitleFont": "Libre Franklin",
+        "textFont": "Libre Franklin",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.10.10",
+    "siteFonts": [],
+    "uniqCompNum": 1,
+    "versionPublish": "4.10.10"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": true,
+            "contentAlign": "right",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "containerColor1": "#084a6e",
+            "containerColor2": "#24a383",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/embed/k-YC2H8ViA8?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://youtu.be/k-YC2H8ViA8",
+              "width": 1280,
+              "height": 720
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": 0.5
+          },
+          "title": "Gradient Header",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-0"
+        }
+      ]
+    }
+  }
+}
